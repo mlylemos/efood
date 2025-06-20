@@ -8,6 +8,7 @@ export const Container = styled.footer`
     flex-direction: column;
     align-items: center;
     border-top: 300px;
+    height: 298px;
 `
 
 export const SocialLinks = styled.div`
@@ -27,7 +28,7 @@ export const Text = styled.p`
     color: #e66767;
     font-size: 14px;
     max-width: 680px;
-    margin: 0 auto;
+    margin: 40px 0 0 0;
     line-height: 22px;
     text-align: center;
 `

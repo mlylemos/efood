@@ -15,26 +15,18 @@ export const Background = styled.div<BackgroundProps>`
     position: relative;
 `
 
-export const TextContainer = styled.div`
-    position: absolute;
-    top: 40px;    
-    left: 40px;   
-    z-index: 2;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;     
-`
-
 export const Cuisine = styled.span`
-    color: #fff;
+    color: #ffffff;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     font-size: 32px;
     line-height: 100%;
     letter-spacing: 0;
     position: absolute;
+    text-align: left;
+    padding-left: 32px;
     top: 30px; 
-    left: 175px;
+    left: 166px;
     padding: 0;
     width: 101px;
     height: 33.25px;
@@ -44,6 +36,8 @@ export const Cuisine = styled.span`
 
 export const Title = styled.h2`
     color: #fff;
+    text-align: left;
+    padding-left: 32px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 36px;
@@ -52,7 +46,7 @@ export const Title = styled.h2`
     position: absolute;
     padding: 0 0 0 140px;
     top: 210px;
-    left: 40px;
+    left: 31px;
     margin: 0;
     text-shadow: 1px 1px 4px #000;
     z-index: 2;

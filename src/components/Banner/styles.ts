@@ -21,7 +21,7 @@ export const Logo = styled.img`
 
 export const Title = styled.h2`
   color: #e66767;
-  font-size: 36px;
+  font-size: 32px;
   font-weight: bold;
   text-align: center;
   line-height: 42px;

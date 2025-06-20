@@ -2,33 +2,31 @@ import styled from 'styled-components'
 
 export const Card = styled.div`
     background-color: #e66767;
-    border-radius: 8px;
-    padding: 16px;
+    padding: 8px;
     color: #ffebd9;
-    max-width: 320px;
+    width: 320px;
+    height: 338px;
 `
 export const DishButton = styled.button`
-    margin-top: 12px;
-    padding: 8px 16px;
+    margin-top: 5px;
     background-color: #ffebd9;
     color: #e66767;
     font-weight: 700;
-    width: 100%;
+    width: 304px;
+    height: 24px;
     border: none;
-    border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.2s;
 
     &:hover {
-        background-color:rgb(226, 203, 74);
+        background-color: white;
     }
 `
 
 export const Image = styled.img`
-    width: 100%;
-    height: 200px;
+    width: 304px;
+    height: 167px;
     object-fit: cover;
-    border-radius: 8px;
 `
 
 export const Info = styled.div`
@@ -36,25 +34,16 @@ export const Info = styled.div`
 `
 
 export const Title = styled.h3`
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 16px;
+    height: 19px;
+    font-weight: 900;
     margin: 8px 0;
+    line-height: 100%;
 `
 
 export const Description = styled.p`
     font-size: 14px;
-    line-height: 1.4;
-`
-
-export const Button = styled.button`
-    margin-top: 12px;
-    background-color: #ffebd9;
-    color: #e66767;
-    border: none;
-    border-radius: 4px;
-    font-weight: bold;
-    padding: 8px 12px;
-    cursor: pointer;
-    font-size: 14px;
-    width: 100%;
+    height: 88px;
+    line-height: 22px;
+    font-weight: 400;
 `
