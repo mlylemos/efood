@@ -5,12 +5,12 @@ export const HeaderBar = styled.header`
   background-image: url(${bannerImage});
   background-size: cover;
   background-position: center;
-  height: 186px;
+  height: 162px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 171px;
-  position: relative; // Não precisa ser absolute
+  position: relative;
   width: 100%;
   top: 0;
   left: 0;
