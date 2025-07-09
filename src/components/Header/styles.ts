@@ -34,7 +34,7 @@ export const Cart = styled.div`
   font-size: 18px;
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
-  margin-left: 8px;
+  margin-left: 9px;
   margin-right: 100px;
   white-space: nowrap;
 `
