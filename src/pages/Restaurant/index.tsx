@@ -1,4 +1,3 @@
-import Header from '../../components/Header'
 import { Container, DishesGrid } from './styles'
 import Dish from '../../components/Dish'
 import Footer from '../../components/Footer'
@@ -10,7 +9,6 @@ const Restaurant = () => {
 
     return (
         <>
-        <Header />
             <RestaurantBanner
                 image={macarrao}
                 name="La Dolce Vita Trattoria"
