@@ -9,7 +9,8 @@ export const HeaderBar = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: relative;
+  padding: 0 171px;
+  position: relative; // Não precisa ser absolute
   width: 100%;
   top: 0;
   left: 0;
